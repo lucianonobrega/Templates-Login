@@ -1,0 +1,95 @@
+@media screen and (max-width:1024px){
+    body {
+        background-position: right;
+    }
+
+    .formularioContainer {
+        width: 70%;
+    }
+
+    .formularioContainer form h1 {
+        font-size: 6rem;
+    }
+
+    .inputsForm {
+        gap: 3rem;
+    }
+
+    .inputsForm .containerUsername,
+    .containerPassword {
+        height: 5rem;
+    }
+
+    .rememberForgotPassword {
+        font-size: 2.2rem;
+    }
+
+    form .rememberForgotPassword .inputCheckbox input[type="checkbox"] {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+
+    form button {
+        width: 18rem;
+        height: 5rem;
+        font-size: 2rem;
+    }
+
+    form .containerRegister p {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width:460px){
+    body {
+        background-position: 11% center;
+    }
+
+    .formularioContainer {
+        width: 90%;
+        height: 80%;
+    }
+
+    .formularioContainer form h1 {
+        font-size: 6rem;
+    }
+
+    .inputsForm {
+        height: 60%;
+    }
+
+    .rememberForgotPassword {
+        font-size: 1.4rem;
+    }
+
+    form .rememberForgotPassword .inputCheckbox input[type="checkbox"] {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    form button {
+        width: 16rem;
+        height: 4rem;
+        font-size: 1.6rem;
+    }
+
+    form .containerRegister p {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+
+    .formularioContainer {
+        width: 96%;
+        height: 86%;
+    }
+
+    .formularioContainer form h1 {
+        font-size: 4rem;
+    }
+
+    .formularioContainer form {
+        gap: 3rem;
+    }
+}

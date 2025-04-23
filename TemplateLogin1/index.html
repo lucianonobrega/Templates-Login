@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="formularioContainer">
+        <form action="#" method="post">
+            <h1>Welcome!</h1>
+            <div class="inputsForm">
+                <div class="containerUsername">
+                    <input type="text" id="inputUsername" placeholder="Username" required autocomplete="off">
+                    <img src="assets/img/user.png" alt="ícone usuário">
+                </div>
+                <div class="containerPassword">
+                    <input type="password" id="inputPassword" placeholder="Password" required>
+                    <img src="assets/img/olhofechado.png" id="passwordIcon" alt="ícone password">
+                </div>
+                <div class="rememberForgotPassword">
+                    <div class="inputCheckbox">
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Remember me</label>
+                    </div>  
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit">Login</button>
+            </div>
+            <div class="containerRegister">
+                <p>Don't have an account? <a href="#">Register</a></p>
+            </div>
+        </form>
+    </div>
+    <script src="assets/script/script.js"></script>
+</body>
+</html>

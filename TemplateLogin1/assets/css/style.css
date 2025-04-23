@@ -1,0 +1,172 @@
+html {
+    font-size: 62.5%;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --branco:#fff;
+    --pretoTransparente:#000000a9;
+    --preto:#000;
+    --marromDourado-1:#dbb06b;
+    --marromDourado-2:#aa7c33;
+    --marromEscuro:#543b44;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/backgroundImage.gif");
+    background-position: 90% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formularioContainer {
+    width: 30%;
+    height: 60%;
+    border-radius: 2rem;
+    overflow: hidden;
+    border: 0.2rem solid var(--marromDourado-1);
+}
+
+.formularioContainer form {
+    background-color: var(--pretoTransparente);
+    backdrop-filter: blur(2px);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.formularioContainer form h1 {
+    font-size: 5rem;
+    color: var(--marromDourado-1);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.inputsForm {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.inputsForm .containerUsername,
+.containerPassword {
+    width: 100%;
+    height: 3.5rem;
+    position: relative;
+}
+
+.inputsForm .containerUsername img,
+.containerPassword img {
+    width: 2.5rem;
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.inputsForm .containerUsername input,
+.containerPassword input {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    border: 0.2rem solid var(--preto);
+    padding-left: 2rem;
+    outline: none;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.inputsForm .containerUsername input::placeholder,
+.containerPassword input::placeholder {
+    color: rgb(196, 196, 196);
+}
+
+.inputsForm .containerUsername input:focus,
+.containerPassword input:focus {
+    border: 0.2rem solid var(--marromDourado-1);
+}
+
+.rememberForgotPassword {
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    color: var(--marromDourado-1);
+}
+
+.rememberForgotPassword label {
+    cursor: pointer;
+}
+
+.rememberForgotPassword a {
+    text-decoration: none;
+    color: var(--marromDourado-1);
+    border-bottom: 0.2rem solid var(--marromDourado-1);
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.rememberForgotPassword a:hover {
+    color: var(--marromDourado-2);
+    border-bottom: 0.2rem solid var(--marromDourado-2);
+}
+
+.rememberForgotPassword .inputCheckbox {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+form .rememberForgotPassword .inputCheckbox input[type="checkbox"] {
+    width: 1.6rem;
+    height: 1.6rem;
+    cursor: pointer;
+}
+
+form button {
+    width: 15rem;
+    height: 4rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: var(--marromDourado-2);
+    color: var(--branco);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: var(--marromEscuro);
+}
+
+form .containerRegister p {
+    font-size: 1.4rem;
+    color: var(--marromDourado-1);
+}
+
+form .containerRegister a {
+    color: var(--marromDourado-1);
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+form .containerRegister a:hover {
+    color: var(--marromDourado-2);
+}
