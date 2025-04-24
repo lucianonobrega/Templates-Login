@@ -10,7 +10,7 @@ Cada projeto está organizado em pastas separadas com seus respectivos arquivos.
 
 ![TemplateLogin1](imagensTemplates/template1-imagem.PNG)<br>
 
-Link para testar: <a target="_blank">https://lucianonobrega.github.io/LoginTemplates/TemplateLogin1/<a/>
+Link para testar: <a target="_blank">https://lucianonobrega.github.io/Templates-Login/TemplateLogin1/<a/>
 
 # 🛠️ Como Executar os Projetos
 1-Clone este repositório:
