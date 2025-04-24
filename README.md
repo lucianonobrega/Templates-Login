@@ -1,6 +1,6 @@
 # 📌Templates Login
 
-Este repositório foi criado para armazenar Templates de Telas de Login desenvolvidos com HTML, CSS e JavaScript.
+Este repositório foi criado para armazenar Templates de Telas de Login responsivos desenvolvidos com HTML, CSS e JavaScript.
 
 Cada projeto está organizado em pastas separadas com seus respectivos arquivos. Além disso, foram adicionadas imagens para demonstrar a interface de cada um.
 
