@@ -12,6 +12,12 @@ Cada projeto está organizado em pastas separadas com seus respectivos arquivos.
 
 Link para testar: <a target="_blank">https://lucianonobrega.github.io/Templates-Login/TemplateLogin1/<a/>
 
+## 💻 Template 2️⃣
+
+![TemplateLogin1](imagensTemplates/template2-imagem.PNG)<br>
+
+Link para testar: <a target="_blank">https://lucianonobrega.github.io/Templates-Login/TemplateLogin2/<a/>
+
 # 🛠️ Como Executar os Projetos
 1-Clone este repositório:
 ```bash
