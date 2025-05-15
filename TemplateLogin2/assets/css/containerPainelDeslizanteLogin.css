@@ -1,0 +1,30 @@
+.containerPainelDeslizanteLogin {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+
+.containerPainelDeslizanteLogin h1,
+.containerPainelDeslizanteLogin p {
+    color: var(--corVerao4);
+}
+
+.containerPainelDeslizanteLogin button {
+    width: 12rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border: 0.2rem solid var(--corVerao4);
+    outline: none;
+    color: var(--corVerao1);
+    background-color: var(--corVerao3);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.containerPainelDeslizanteLogin button:active {
+    color: var(--corVerao3);
+    background-color: var(--corVerao1);
+}

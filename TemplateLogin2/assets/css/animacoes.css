@@ -1,0 +1,64 @@
+@keyframes animacaoPainelDeslizanteEsquerda {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes animacaoPainelDeslizanteDireita {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+
+@keyframes mostrarConteudo {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes esconderConteudo {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* --------------------------------------------------------------------- */
+
+.animacaoPainelDeslizanteEsquerda {
+    animation: animacaoPainelDeslizanteEsquerda 1s ease-in-out forwards;
+    background-image: url("../img/backgroundVerao.png");
+}
+
+.animacaoPainelDeslizanteDireita {
+    animation: animacaoPainelDeslizanteDireita 1s ease-in-out forwards;
+}
+
+.mostrarConteudo {
+    animation: mostrarConteudo 1s ease-in-out 0.5s forwards;
+    opacity: 0;
+}
+
+.fade-in {
+    animation: mostrarConteudo 1.5s ease-in-out forwards;
+}
+
+.fade-out {
+    animation: esconderConteudo 1.5s ease-in-out forwards;
+}

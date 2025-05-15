@@ -1,0 +1,21 @@
+.painelDeslizanteTemaVerao h1,
+.painelDeslizanteTemaVerao p {
+    color: var(--corVerao4);
+}
+
+.painelDeslizanteTemaVerao button {
+    width: 12rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border: 0.2rem solid var(--corVerao4);
+    outline: none;
+    color: var(--corVerao1);
+    background-color: var(--corVerao3);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.painelDeslizanteTemaVerao button:active {
+    color: var(--corVerao3);
+    background-color: var(--corVerao1);
+}

@@ -1,0 +1,131 @@
+@media screen and (max-width:1200px) {
+    body {
+        background-position: 41% center;
+    }
+
+    .containerPai {
+        width: 75%;
+    }
+
+    .painelDeslizante,
+    .containerPainelDeslizanteLogin,
+    .containerPainelDeslizanteCreateAccount {
+        display: none;
+    }
+
+    .containerCadastro,
+    .containerLogin {
+        width: 100%;
+    }
+
+    .containerCadastro form,
+    .containerLogin form {
+        width: 90%;
+    }
+
+    .containerCadastro form h1,
+    .containerLogin form h1 {
+        font-size: 6rem;
+    }
+
+    .containerLogin form input,
+    .containerCadastro form input {
+        height: 5rem;
+    }
+
+    .containerCadastro form input::placeholder,
+    .containerLogin form input::placeholder {
+        font-size: 2rem;
+    }
+
+    .containerLogin form .inputEmailLogin img,
+    .containerLogin form .inputPasswordLogin img,
+    .containerCadastro form .inputEmailCadastro img,
+    .containerCadastro form .inputPasswordCadastro img {
+        width: 3rem;
+    }
+
+    .containerLogin form .containerRememberMeForgotPassword a,
+    .containerLogin form .containerRememberMeForgotPassword p,
+    .containerRememberMe p,
+    .containerCadastro form .containerAcceptTerms a,
+    .containerCadastro form .containerAcceptTerms p {
+        font-size: 2rem;
+    }
+
+    .containerLogin form .containerRememberMeForgotPassword .containerRememberMe input,
+    .containerCadastro form .containerAcceptTerms input {
+        width: 2rem;
+    }
+
+    .containerCadastro {
+        position: absolute;
+        display: none;
+        background-position: 41% center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .containerLogin {
+        display: flex;
+        background-position: 41% center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .containerLogin form button,
+    .containerCadastro form button {
+        width: 18rem;
+        height: 6rem;
+        border-radius: 2rem;
+        font-size: 2.2rem;
+    }
+
+    .containerLogin .containerMobileCreateAccount {
+        display: block;
+    }
+
+    .containerCadastro .containerMobileLogin {
+        display: block;
+    }
+}
+
+@media screen and (max-width:450px) {
+    body {
+        background-position: 43% center;
+    }
+
+    .containerPai {
+        width: 95%;
+        height: 92%;
+    }
+
+    .containerLogin form h1,
+    .containerCadastro form h1 {
+        font-size: 4.5rem;
+    }
+
+    .containerLogin form .containerRememberMeForgotPassword a,
+    .containerLogin form .containerRememberMeForgotPassword .containerRememberMe p,
+    .containerCadastro form .containerAcceptTerms a,
+    .containerCadastro form .containerAcceptTerms p {
+        font-size: 1.35rem;
+        font-weight: 600;
+    }
+
+    .containerLogin form .containerRememberMeForgotPassword .containerRememberMe input,
+    .containerCadastro form .containerAcceptTerms input {
+        width: 1.7rem;
+    }
+
+    .containerCadastro .containerMobileLogin {
+        font-size: 1.5rem;
+        top: 3rem;
+    }
+
+    .containerLogin .containerMobileCreateAccount {
+        font-size: 1.5rem;
+        top: 9.5rem;
+    }
+
+}

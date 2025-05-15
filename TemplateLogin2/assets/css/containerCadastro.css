@@ -1,0 +1,124 @@
+.containerCadastro {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerCadastro form {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.containerCadastro form h1 {
+    font-size: 4rem;
+    color: var(--corVerao4);
+    text-align: center;
+}
+
+.containerCadastro form input {
+    height: 3rem;
+    border: 0.2rem solid var(--corVerao3);
+    border-radius: 1rem;
+    outline: none;
+    padding-left: 1rem;
+    color: var(--corVerao4);
+    background-color: var(--corVerao1);
+}
+
+.containerCadastro form input:focus {
+    border: 0.2rem solid var(--corVerao4);
+}
+
+.containerCadastro form input::placeholder {
+    color: var(--corVerao4);
+}
+
+.containerCadastro form .containerNomeSobrenome {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerCadastro form .containerNomeSobrenome input {
+    width: 48%;
+}
+
+.containerCadastro form .inputEmailCadastro,
+.containerCadastro form .inputPasswordCadastro {
+    width: 100%;
+    position: relative;
+}
+
+.containerCadastro form .inputEmailCadastro input,
+.containerCadastro form .inputPasswordCadastro input {
+    width: 100%;
+}
+
+.containerCadastro form .inputEmailCadastro img,
+.containerCadastro form .inputPasswordCadastro img {
+    width: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
+}
+
+.containerCadastro form .containerAcceptTerms {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    color: var(--corVerao4);
+    font-weight: 500;
+}
+
+.containerCadastro form .containerAcceptTerms input {
+    width: 1.6rem;
+    cursor: pointer;
+}
+
+.containerCadastro form button {
+    width: 12rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border: 0.2rem solid var(--corVerao4);
+    outline: none;
+    color: var(--corVerao1);
+    background-color: var(--corVerao3);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.containerCadastro form button:active {
+    color: var(--corVerao3);
+    background-color: var(--corVerao1);
+}
+
+.containerCadastro .containerMobileLogin {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    position: relative;
+    top: 5.5rem;
+    color: var(--corVerao4);
+}
+
+.containerCadastro .containerMobileLogin a {
+    color: var(--corVerao4);
+    font-weight: bold;
+}
+
+.containerCadastro .containerMobileLogin a:hover {
+    color: var(--corVerao3);
+}
